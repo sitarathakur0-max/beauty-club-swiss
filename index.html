@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beauty Club Swiss | Luxury Beauty Salon in Zürich</title>
+    <meta
+      name="description"
+      content="Beauty Club Swiss is a premier beauty salon at Leonhardstrasse 4, 8001 Zürich offering personal-care and beauty treatments. Rated 4.9/5 from 48 client reviews."
+    />
+    <meta property="og:title" content="Beauty Club Swiss | Luxury Beauty Salon in Zürich" />
+    <meta
+      property="og:description"
+      content="Beauty salon offering personal-care and beauty treatments at Leonhardstrasse 4, 8001 Zürich. Rated 4.9/5 from 48 reviews."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Beauty Club Swiss" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Beauty Club Swiss | Luxury Beauty Salon in Zürich" />
+    <meta
+      name="twitter:description"
+      content="Beauty salon offering personal-care and beauty treatments at Leonhardstrasse 4, 8001 Zürich. Rated 4.9/5 from 48 reviews."
+    />
+
+    <!-- Fonts: Cormorant Garamond (Editorial Luxury Serif) + Plus Jakarta Sans (Clean Modern Sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Structured Data (JSON-LD) for Local Business: BeautySalon -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BeautySalon",
+      "name": "Beauty Club Swiss",
+      "image": "/src/assets/images/hero_beauty_salon_1789905951537.jpg",
+      "telephone": "+41 77 495 89 83",
+      "description": "Beauty salon offering personal-care and beauty treatments",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Leonhardstrasse 4",
+        "addressLocality": "Zürich",
+        "postalCode": "8001",
+        "addressCountry": "CH"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "bestRating": "5",
+        "reviewCount": "48"
+      }
+    }
+    </script>
+  </head>
+  <body class="bg-[#FBF9F5] text-[#111827] antialiased selection:bg-[#E8DCC4] selection:text-[#0C1E3C]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

@@ -1,0 +1,6 @@
+{
+  "name": "Beauty Club Swiss",
+  "description": "Beauty salon in Leonhardstrasse 4, 8001 Zürich offering personal-care and beauty treatments. Rated 4.9/5 from 48 reviews.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
